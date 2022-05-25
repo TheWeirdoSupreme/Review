@@ -1,0 +1,26 @@
+li{
+    list-style-type: none;
+    margin: 0 2vw;
+    font-size: 10vh;
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding: 2vw;
+    font-family: Monospace;
+}
+a:hover{
+    background-color: #C6E9FF;
+}
+nav{
+    width: 100vw;
+    background-color: #D6EFFF;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+body{
+    margin:0;
+}
