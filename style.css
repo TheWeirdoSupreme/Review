@@ -1,3 +1,6 @@
+@charset "utf-8";
+img{border: dashed medium #161515;}
+
 li{
     list-style-type: none;
     margin: 0 2vw;
