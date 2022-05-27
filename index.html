@@ -1,17 +1,92 @@
 <!DOCTYPE HTML>
-<head>
-    <link rel="stylesheet" href="style.css">  
-</head>
-<nav>
-    <ul>
-        <li>
-            <a href= "movies.html">Movies</a>
-        </li>
-        <li>
-            <a href= "tv.html">Shows</a>
-        </li>
-        <li>
-            <a href= "music.html">Music</a>
-        </li>
-    </ul>
-</nav>
+<html>
+  <head>
+    <title>Template</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!--internal CSS below-->
+    <style> 
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+      }
+      .header-menu,
+      footer {
+        display: flex;
+        align-items: center;
+        width: 100%;
+      }
+      .header-menu {
+        justify-content: flex-end;
+        height: 60px;
+        background: #FFB6C1;
+        color: #fff;
+      }
+      h2 {
+        margin: 0 0 8px;
+      }
+      ul li {
+        display: inline-block;
+        padding: 0 10px;
+        list-style: none;
+      }
+      aside {
+        flex: 0.4;
+        height: 165px;
+        padding-left: 15px;
+        border-left: 1px solid #666;
+      }
+      section {
+        flex: 1;
+        padding-right: 15px;
+      }
+      footer {
+        padding: 0 10px;
+        background: #FFB6C1;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header-menu">
+      <nav>
+        <ul>
+          <li><a href="movies.html">Movies</a></li>
+          <li><a href="tv.html">TV</a></li>
+          <li><a href= "music.html">Music</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+    <article>
+        <header>
+          <h2>N/A</h2>
+      <article>
+        <header>
+          <h2>Movies</h2>
+        </header>
+        <p>By clicking the 'Movies' link, it will bring you a page which will display a few reviews from some of our favorite and not so favorite movies</p>
+      </article>
+      <article>
+        <header>
+          <h2>Tv Shows</h2>
+        </header>
+        <p>By clicking the 'Tv Shows' link, it will bring you a page which will display a few reviews from some of our favorite and not so favorite tv shows</p>
+      </article>
+        <header>
+          <h2>Music</h2>
+        </header>
+        <p>By clicking the 'Music' link, it will bring you a page which will display a few reviews from some of our favorite music we listen to</p>
+    </section>
+    <aside>
+      <h2>---</h2>
+      <p>---</p>
+
+    </aside>
+    <footer>
+    </footer>
+  </body>
+</html>
